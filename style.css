@@ -1,59 +1,71 @@
 #header{
-    /* width: 100% ; */
-    /* height:200px ; */
-    background-color: aqua;
-
+    background-color: rgb(226, 109, 92);
 }
+   
+    
 #footer{
  
-    background-color: rgb(255, 169, 169);
+    background-color: rgb(226, 109, 92);
 }
 
 
 #nombre{
    
-    background-color: rgb(247, 247, 36);
+    background-color: rgb(226, 109, 92);
     /* border-radius: 20px; */
+}
+body{
+    background-color: rgb(255, 225, 168);
 }
     
 img{
     
-    height:15% ;
-    width: 15%;
+    height: auto;
+    width: 120px;
 }
+
 .perfil{
     
     height: 200px;
     width: 200px;
     border-radius: 20px;
 }
+#fotoPerfil{
+    margin-top: 10%;
+}
+   
 #ilustracion{
+    margin-top: 3%;
     height: 350px;
     width: 350px;
 }
    
 
 #div1{
-    background-color: blueviolet;
-    /* width: 50% ; */
-    /* height:400px ; */
+    background-color: rgb(255, 225, 168);
+    margin-top: 3%;
     /* border-radius: 20px; */
+    
 }
 #div2{
-    background-color: blueviolet;
+    background-color: rgb(255, 225, 168);
     /* width: 50% ; */
     /* height:400px ; */
     /* border-radius: 20px; */
 }
 #div3{
-    background-color: rgb(248, 9, 9);
+    background-color: rgb(255, 225, 168);
+    /* width: 50% ; */
+    /* height:400px ; */
+    /* border: solid 2px; */
+    /* border-radius: 20px; */
+}
+#div4{
+    background-color: rgb(255, 225, 168);
     /* width: 50% ; */
     /* height:400px ; */
     /* border-radius: 20px; */
 }
-#div4{
-    background-color: rgb(222, 195, 247);
-    /* width: 50% ; */
-    /* height:400px ; */
-    /* border-radius: 20px; */
+.colorFuente{
+    color: aliceblue;
 }
