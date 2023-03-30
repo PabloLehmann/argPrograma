@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    
     <title>Mensaje</title>
 </head>
 <body>
@@ -48,20 +49,30 @@
 
     <div class="col-xs-12 col-sm-8 col-md-12">
 
-        <h3 class="text-center">En breve nos comunicaremos con ud.</h3>
+        <div class="text-center">
 
-        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="./index.html">
-            Volver a inicio
-            <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
-        </a>
+                <h3 >En breve nos comunicaremos con ud.</h3>
 
-          
+               <section>
+                    <p>
+                        <span id="days"></span> días / <span id="hours"></span> horas / <span id="minutes"></span> minutos / <span id="seconds"></span> segundos
+                    </p>
+                </section> 
+
+                <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="./index.html">
+                    Volver a inicio
+                    <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+                </a>
+        </div>
+        
     </div>
+    
     
 
 
 
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
