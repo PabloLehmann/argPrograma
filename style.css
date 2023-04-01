@@ -35,6 +35,10 @@ a{
 h2,li,p,td {
     font-family: 'Raleway', sans-serif;
 }
+#button{
+    background-color:rgb(226, 109, 92) ;
+    border: none;
+}
 .iconFooter{
     padding: 5px;
 }
