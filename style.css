@@ -1,50 +1,89 @@
-body{
-    margin: 0px;
-    padding: 0px;
+#header{
+    background-color: rgb(226, 109, 92);
+    font-family: 'Raleway', sans-serif;
 }
-
-header{
-    background-image: url("./asset/bg.png");
-    background-color: aquamarine;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 633px;
-    width: auto;
    
+   
+    
+#footer{
+ 
+    background-color: rgb(226, 109, 92);
 }
-footer{
-    background-color: black;
-    height: 150px;
-    width: 150px;
 
+
+#nombre{
+    background-color: rgb(226, 109, 92);
 }
+   
 
+
+body{
+    background-color: rgb(255, 225, 168);
+}
+    
+    
 img{
     height: auto;
-    width: 100%;
+    width: 120px;
 }
-.icono{
-    height: 150px;
-    width: 150px;
+    
+a{
+    color: black;
+    text-decoration: none
+}
+h2,li,p,td {
+    font-family: 'Raleway', sans-serif;
+}
+#button{
+    background-color:rgb(226, 109, 92) ;
+    border: none;
+}
+.iconFooter{
+    padding: 5px;
+}
 
-}
-#proyectos{
-    background-color: rgb(96, 93, 98);
-    height: 650px;
-}
-
-#estudios{
-    background-color: rgb(59, 174, 223);
-    height: 100%;
-}
-#contacto{
-    background-color: rgb(52, 101, 144);
-    height: 650px;
-
-}
-.certificado{
+.perfil{
+    
     height: 200px;
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 20px;
 }
+#fotoPerfil{
+    margin-top: 10%;
+}
+   
+#ilustracion{
+    padding-top: 3%;
+    height: 350px;
+    width: 350px;
+}
+   
+
+#div1{
+    background-color: rgb(255, 225, 168);
+    font-family: 'Raleway', sans-serif;
+}
+  
+    
+#div2{
+    background-color: rgb(255, 225, 168);
+    margin-bottom: 3%;
+}
+  
+#div3{
+    background-color: rgb(255, 225, 168);
+    font-family: 'Raleway', sans-serif;
+}
+   
+#div4{
+    background-color: rgb(255, 225, 168);
+    font-family: 'Raleway', sans-serif;
+}
+ 
+.colorFuente{
+    color: aliceblue;
+}
+.background{
+    background-color: rgb(255, 225, 168);
+}
+   
